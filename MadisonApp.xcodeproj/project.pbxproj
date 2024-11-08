@@ -11,6 +11,9 @@
 		D479A16C2C0CFAAB00947D15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D479A16B2C0CFAAB00947D15 /* ContentView.swift */; };
 		D479A16E2C0CFAAC00947D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D479A16D2C0CFAAC00947D15 /* Assets.xcassets */; };
 		D479A1712C0CFAAC00947D15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D479A1702C0CFAAC00947D15 /* Preview Assets.xcassets */; };
+		D479A1782C0CFAE700947D15 /* TitlePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D479A1772C0CFAE700947D15 /* TitlePageView.swift */; };
+		D479A17A2C0CFB3700947D15 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D479A1792C0CFB3700947D15 /* HeaderView.swift */; };
+		D47F0E4A2CDD6A120018AF98 /* AddConsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F0E492CDD6A120018AF98 /* AddConsequence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		D479A16B2C0CFAAB00947D15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D479A16D2C0CFAAC00947D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D479A1702C0CFAAC00947D15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D479A1772C0CFAE700947D15 /* TitlePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePageView.swift; sourceTree = "<group>"; };
+		D479A1792C0CFB3700947D15 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D47F0E492CDD6A120018AF98 /* AddConsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddConsequence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +38,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D40F9B4A2C30CFCD00FBE11D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D479A16B2C0CFAAB00947D15 /* ContentView.swift */,
+				D479A1772C0CFAE700947D15 /* TitlePageView.swift */,
+				D479A1792C0CFB3700947D15 /* HeaderView.swift */,
+				D47F0E492CDD6A120018AF98 /* AddConsequence.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D479A15D2C0CFAAB00947D15 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				D479A1692C0CFAAB00947D15 /* MadisonAppApp.swift */,
-				D479A16B2C0CFAAB00947D15 /* ContentView.swift */,
+				D40F9B4A2C30CFCD00FBE11D /* Views */,
 				D479A16D2C0CFAAC00947D15 /* Assets.xcassets */,
 				D479A16F2C0CFAAC00947D15 /* Preview Content */,
 			);
@@ -138,7 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D479A16C2C0CFAAB00947D15 /* ContentView.swift in Sources */,
+				D479A1782C0CFAE700947D15 /* TitlePageView.swift in Sources */,
+				D47F0E4A2CDD6A120018AF98 /* AddConsequence.swift in Sources */,
 				D479A16A2C0CFAAB00947D15 /* MadisonAppApp.swift in Sources */,
+				D479A17A2C0CFB3700947D15 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +307,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.emiyaconsulting.MadisonApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,6 +340,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.emiyaconsulting.MadisonApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
